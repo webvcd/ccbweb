@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(".date").before(times);
 
     //春节倒计时
-    var starttime = new Date("2025/1/29");
+    var starttime = new Date("2026/2/16");
     setInterval(function () {
         var nowtime = new Date();
         var time = starttime - nowtime;
@@ -125,7 +125,7 @@ $(document).ready(function(){
     });
 
 
-    var mess = "<span>没想到新年马上就要到了</span><span class='B-span2'>祝大家新春快乐。</span><span>岁月可以褪去记忆，却褪不去我们一路留下的欢声笑语。祝你新春快乐，岁岁安怡！</span><span>新春到来喜事多，合家团圆幸福多；心情愉快朋友多，身体健康快乐多；一切顺利福气多，新年吉祥生意多；祝您好事多！多！多！</span>";
+    var mess = "<span>没想到新年马上就要到了</span><span class='B-span2'>226626.xyz</span><span>岁月可以褪去记忆，却褪不去我们一路留下的欢声笑语。祝你新春快乐，岁岁安怡！</span><span>新春到来喜事多，合家团圆幸福多；心情愉快朋友多，身体健康快乐多；一切顺利福气多，新年吉祥生意多；祝您好事多！多！多！</span>";
     $(".Barrage").append(mess);
 
     $(".buts").click(function(){
